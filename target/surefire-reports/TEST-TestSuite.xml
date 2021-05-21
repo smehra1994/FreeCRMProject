@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="9" failures="3" name="TestSuite" time="81.137" errors="0" skipped="0">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="JOB_NAME" value="FreeCRMProjectTest"/>
+    <property name="RUN_TESTS_DISPLAY_URL" value="http://localhost:8080/job/FreeCRMProjectTest/11/display/redirect?page=tests"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="NUMBER_OF_PROCESSORS" value="8"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="JENKINS_HOME" value="C:\Users\sanka\.jenkins"/>
+    <property name="HUDSON_SERVER_COOKIE" value="b9d69d291fbcf39c"/>
+    <property name="POM_ARTIFACTID" value="FreeCRMProject"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_291\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_291\jre\classes"/>
+    <property name="EXECUTOR_NUMBER" value="1"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="POM_DISPLAYNAME" value="FreeCRMProject"/>
+    <property name="NODE_LABELS" value="master"/>
+    <property name="TEMP" value="C:\Users\sanka\AppData\Local\Temp"/>
+    <property name="java.runtime.version" value="1.8.0_291-b10"/>
+    <property name="user.name" value="sanka"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="CommonProgramW6432" value="C:\Program Files\Common Files"/>
+    <property name="ProgramFiles" value="C:\Program Files"/>
+    <property name="PROMPT" value="$P$G"/>
+    <property name="user.language" value="en"/>
+    <property name="JOB_BASE_NAME" value="FreeCRMProjectTest"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/FreeCRMProjectTest/11/display/redirect?page=changes"/>
+    <property name="BUILD_DISPLAY_NAME" value="#11"/>
+    <property name="OneDrive" value="C:\Users\sanka\OneDrive"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_291\jre\bin"/>
+    <property name="LOCALAPPDATA" value="C:\Users\sanka\AppData\Local"/>
+    <property name="java.version" value="1.8.0_291"/>
+    <property name="PROCESSOR_LEVEL" value="23"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="USERNAME" value="sanka"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="NODE_NAME" value="master"/>
+    <property name="OneDriveConsumer" value="C:\Users\sanka\OneDrive"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_291\jre\lib\endorsed"/>
+    <property name="BUILD_ID" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="HOMEDRIVE" value="C:"/>
+    <property name="maven.conf" value="C:\Users\sanka\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\FreeCRMMaven\conf"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="=::" value="::\"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="user.country" value="IN"/>
+    <property name="ALLUSERSPROFILE" value="C:\ProgramData"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_291\jre"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="os.version" value="10.0"/>
+    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/FreeCRMProjectTest/11/display/redirect"/>
+    <property name="POM_VERSION" value="0.0.1-SNAPSHOT"/>
+    <property name="TMP" value="C:\Users\sanka\AppData\Local\Temp"/>
+    <property name="RUN_ARTIFACTS_DISPLAY_URL" value="http://localhost:8080/job/FreeCRMProjectTest/11/display/redirect?page=artifacts"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.version" value="25.291-b10"/>
+    <property name="user.variant" value=""/>
+    <property name="JOB_DISPLAY_URL" value="http://localhost:8080/job/FreeCRMProjectTest/display/redirect"/>
+    <property name="CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files"/>
+    <property name="USERDOMAIN_ROAMINGPROFILE" value="LAPTOP-2EQAN3L4"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="JAVA_HOME" value="C:\Program Files\Java\jdk1.8.0_291"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="CommonProgramFiles" value="C:\Program Files\Common Files"/>
+    <property name="ComSpec" value="C:\Windows\system32\cmd.exe"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="HOMEPATH" value="\Users\sanka"/>
+    <property name="POM_PACKAGING" value="jar"/>
+    <property name="user.script" value=""/>
+    <property name="COMPUTERNAME" value="LAPTOP-2EQAN3L4"/>
+    <property name="POM_GROUPID" value="FreeCRMProject"/>
+    <property name="user.home" value="C:\Users\sanka"/>
+    <property name="PUBLIC" value="C:\Users\Public"/>
+    <property name="BUILD_TAG" value="jenkins-FreeCRMProjectTest-11"/>
+    <property name="JENKINS_SERVER_COOKIE" value="b9d69d291fbcf39c"/>
+    <property name="HUDSON_URL" value="http://localhost:8080/"/>
+    <property name="ProgramData" value="C:\ProgramData"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="USERPROFILE" value="C:\Users\sanka"/>
+    <property name="CLASSPATH" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_291\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Users\sanka\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\FreeCRMMaven/bin;C:\Program Files\Java\jdk1.8.0_291/bin;C:\Program Files\Java\jdk1.8.0_291/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\jre1.8.0_291\bin;C:\Users\sanka\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="APPDATA" value="C:\Users\sanka\AppData\Roaming"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="maven.home" value="C:\Users\sanka\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\FreeCRMMaven"/>
+    <property name="java.class.path" value="C:\Users\sanka\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-agent-1.13.jar;C:\Users\sanka\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\FreeCRMMaven\boot\plexus-classworlds-2.6.0.jar;C:\Users\sanka\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\FreeCRMMaven/conf/logging"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\Users\sanka\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\FreeCRMMaven C:\Users\sanka\.jenkins\war\WEB-INF\lib\remoting-4.7.jar C:\Users\sanka\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar C:\Users\sanka\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar 59006"/>
+    <property name="Path" value="C:\Program Files\Java\jdk1.8.0_291/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\jre1.8.0_291\bin;C:\Users\sanka\AppData\Local\Microsoft\WindowsApps;"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="PROCESSOR_ARCHITECTURE" value="AMD64"/>
+    <property name="PATH+JDK" value="C:\Program Files\Java\jdk1.8.0_291/bin"/>
+    <property name="PROCESSOR_IDENTIFIER" value="AMD64 Family 23 Model 96 Stepping 1, AuthenticAMD"/>
+    <property name="SESSIONNAME" value="Console"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="M2_HOME" value="C:\Users\sanka\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\FreeCRMMaven"/>
+    <property name="java.io.tmpdir" value="C:\Users\sanka\AppData\Local\Temp\"/>
+    <property name="CI" value="true"/>
+    <property name="OS" value="Windows_NT"/>
+    <property name="HUDSON_HOME" value="C:\Users\sanka\.jenkins"/>
+    <property name="PATH+MAVEN" value="C:\Users\sanka\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\FreeCRMMaven/bin"/>
+    <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
+    <property name="BUILD_URL" value="http://localhost:8080/job/FreeCRMProjectTest/11/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="SystemRoot" value="C:\Windows"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_291\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="user.dir" value="D:\Workspace-New\FreeCRMProject"/>
+    <property name="JOB_URL" value="http://localhost:8080/job/FreeCRMProjectTest/"/>
+    <property name="LOGONSERVER" value="\\LAPTOP-2EQAN3L4"/>
+    <property name="USERDOMAIN" value="LAPTOP-2EQAN3L4"/>
+    <property name="line.separator" value="
+"/>
+    <property name="MAVEN_HOME" value="C:\Users\sanka\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\FreeCRMMaven"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="BUILD_NUMBER" value="11"/>
+    <property name="JENKINS_URL" value="http://localhost:8080/"/>
+    <property name="PROCESSOR_REVISION" value="6001"/>
+    <property name="ProgramW6432" value="C:\Program Files"/>
+    <property name="windir" value="C:\Windows"/>
+    <property name="=C:" value="C:\Users\sanka\Documents\Jenkins"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="SystemDrive" value="C:"/>
+    <property name="maven3.interceptor" value="C:\Users\sanka\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar"/>
+    <property name="WORKSPACE_TMP" value="C:\Users\sanka\.jenkins\workspace\FreeCRMProjectTest@tmp"/>
+    <property name="WORKSPACE" value="C:\Users\sanka\.jenkins\workspace\FreeCRMProjectTest"/>
+    <property name="maven3.interceptor.common" value="C:\Users\sanka\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="PSModulePath" value="C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules"/>
+    <property name="DriverData" value="C:\Windows\System32\Drivers\DriverData"/>
+  </properties>
+  <testcase classname="com.crm.qa.testcases.ContactsPageTest" name="verifyFlightsPageLabel" time="0.099"/>
+  <testcase classname="com.crm.qa.testcases.ContactsPageTest" name="selectSingleContactsTest" time="24.786">
+    <failure message="Expected condition failed: waiting for visibility of element located by By.xpath: //a[text()=&apos;Sank Mehra&apos;]//parent::td//preceding-sibling::td/div/input[@class=&apos;hidden&apos;] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LAPTOP-2EQAN3L4&apos;, ip: &apos;192.168.29.45&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_291&apos;
+Driver info: org.openqa.selenium.support.events.EventFiringWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\sanka\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59110}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: dfd6d781eda6e865b38f1ec5303e310f" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //a[text()=&apos;Sank Mehra&apos;]//parent::td//preceding-sibling::td/div/input[@class=&apos;hidden&apos;] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LAPTOP-2EQAN3L4&apos;, ip: &apos;192.168.29.45&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_291&apos;
+Driver info: org.openqa.selenium.support.events.EventFiringWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\sanka\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59110}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: dfd6d781eda6e865b38f1ec5303e310f
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at com.crm.qa.pages.ContactsPage.selectContactsByName(ContactsPage.java:51)
+	at com.crm.qa.testcases.ContactsPageTest.selectSingleContactsTest(ContactsPageTest.java:66)
+</failure>
+    <system-out>05-21-2021 13:30:01 TestBase.java INFO  [main] base.TestBase 56 - Launching borwser
+Before navigating to: &apos;https://ui.cogmento.com/&apos;
+Navigated to:&apos;https://ui.cogmento.com/&apos;
+05-21-2021 13:30:03 TestBase.java INFO  [main] base.TestBase 72 - Launching URL
+Trying to find Element By : By.xpath: //input[@name=&apos;email&apos;]
+Found Element By : By.xpath: //input[@name=&apos;email&apos;]
+Trying to find Element By : By.xpath: //input[@name=&apos;password&apos;]
+Found Element By : By.xpath: //input[@name=&apos;password&apos;]
+Trying to find Element By : By.xpath: //div[@class=&apos;ui fluid large blue submit button&apos;]
+Found Element By : By.xpath: //div[@class=&apos;ui fluid large blue submit button&apos;]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (dfd6d781eda6e865b38f1ec5303e310f)] -&gt; xpath: //div[@class=&apos;ui fluid large blue submit button&apos;]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (dfd6d781eda6e865b38f1ec5303e310f)] -&gt; xpath: //div[@class=&apos;ui fluid large blue submit button&apos;]]
+Trying to find Element By : By.xpath: //span[@class=&apos;item-text&apos; and text()=&apos;Contacts&apos;]
+Found Element By : By.xpath: //span[@class=&apos;item-text&apos; and text()=&apos;Contacts&apos;]
+Trying to find Element By : By.xpath: //span[@class=&apos;item-text&apos; and text()=&apos;Contacts&apos;]
+Found Element By : By.xpath: //span[@class=&apos;item-text&apos; and text()=&apos;Contacts&apos;]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (dfd6d781eda6e865b38f1ec5303e310f)] -&gt; xpath: //span[@class=&apos;item-text&apos; and text()=&apos;Contacts&apos;]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (dfd6d781eda6e865b38f1ec5303e310f)] -&gt; xpath: //span[@class=&apos;item-text&apos; and text()=&apos;Contacts&apos;]]
+Trying to find Element By : By.xpath: //button[text()=&apos;Show Filters&apos;]
+Found Element By : By.xpath: //button[text()=&apos;Show Filters&apos;]
+Trying to find Element By : By.xpath: //a[text()=&apos;Sank Mehra&apos;]
+Found Element By : By.xpath: //a[text()=&apos;Sank Mehra&apos;]
+Trying to find Element By : By.xpath: //a[text()=&apos;Sank Mehra&apos;]//parent::td//preceding-sibling::td/div/input[@class=&apos;hidden&apos;]
+Found Element By : By.xpath: //a[text()=&apos;Sank Mehra&apos;]//parent::td//preceding-sibling::td/div/input[@class=&apos;hidden&apos;]
+Trying to find Element By : By.xpath: //a[text()=&apos;Sank Mehra&apos;]//parent::td//preceding-sibling::td/div/input[@class=&apos;hidden&apos;]
+Found Element By : By.xpath: //a[text()=&apos;Sank Mehra&apos;]//parent::td//preceding-sibling::td/div/input[@class=&apos;hidden&apos;]
+Trying to find Element By : By.xpath: //a[text()=&apos;Sank Mehra&apos;]//parent::td//preceding-sibling::td/div/input[@class=&apos;hidden&apos;]
+Found Element By : By.xpath: //a[text()=&apos;Sank Mehra&apos;]//parent::td//preceding-sibling::td/div/input[@class=&apos;hidden&apos;]
+Trying to find Element By : By.xpath: //a[text()=&apos;Sank Mehra&apos;]//parent::td//preceding-sibling::td/div/input[@class=&apos;hidden&apos;]
+Found Element By : By.xpath: //a[text()=&apos;Sank Mehra&apos;]//parent::td//preceding-sibling::td/div/input[@class=&apos;hidden&apos;]
+Trying to find Element By : By.xpath: //a[text()=&apos;Sank Mehra&apos;]//parent::td//preceding-sibling::td/div/input[@class=&apos;hidden&apos;]
+Found Element By : By.xpath: //a[text()=&apos;Sank Mehra&apos;]//parent::td//preceding-sibling::td/div/input[@class=&apos;hidden&apos;]
+Trying to find Element By : By.xpath: //a[text()=&apos;Sank Mehra&apos;]//parent::td//preceding-sibling::td/div/input[@class=&apos;hidden&apos;]
+Found Element By : By.xpath: //a[text()=&apos;Sank Mehra&apos;]//parent::td//preceding-sibling::td/div/input[@class=&apos;hidden&apos;]
+Trying to find Element By : By.xpath: //a[text()=&apos;Sank Mehra&apos;]//parent::td//preceding-sibling::td/div/input[@class=&apos;hidden&apos;]
+Found Element By : By.xpath: //a[text()=&apos;Sank Mehra&apos;]//parent::td//preceding-sibling::td/div/input[@class=&apos;hidden&apos;]
+Trying to find Element By : By.xpath: //a[text()=&apos;Sank Mehra&apos;]//parent::td//preceding-sibling::td/div/input[@class=&apos;hidden&apos;]
+Found Element By : By.xpath: //a[text()=&apos;Sank Mehra&apos;]//parent::td//preceding-sibling::td/div/input[@class=&apos;hidden&apos;]
+Trying to find Element By : By.xpath: //a[text()=&apos;Sank Mehra&apos;]//parent::td//preceding-sibling::td/div/input[@class=&apos;hidden&apos;]
+Found Element By : By.xpath: //a[text()=&apos;Sank Mehra&apos;]//parent::td//preceding-sibling::td/div/input[@class=&apos;hidden&apos;]
+Trying to find Element By : By.xpath: //a[text()=&apos;Sank Mehra&apos;]//parent::td//preceding-sibling::td/div/input[@class=&apos;hidden&apos;]
+Found Element By : By.xpath: //a[text()=&apos;Sank Mehra&apos;]//parent::td//preceding-sibling::td/div/input[@class=&apos;hidden&apos;]
+Trying to find Element By : By.xpath: //a[text()=&apos;Sank Mehra&apos;]//parent::td//preceding-sibling::td/div/input[@class=&apos;hidden&apos;]
+Found Element By : By.xpath: //a[text()=&apos;Sank Mehra&apos;]//parent::td//preceding-sibling::td/div/input[@class=&apos;hidden&apos;]
+Trying to find Element By : By.xpath: //a[text()=&apos;Sank Mehra&apos;]//parent::td//preceding-sibling::td/div/input[@class=&apos;hidden&apos;]
+Found Element By : By.xpath: //a[text()=&apos;Sank Mehra&apos;]//parent::td//preceding-sibling::td/div/input[@class=&apos;hidden&apos;]
+Trying to find Element By : By.xpath: //a[text()=&apos;Sank Mehra&apos;]//parent::td//preceding-sibling::td/div/input[@class=&apos;hidden&apos;]
+Found Element By : By.xpath: //a[text()=&apos;Sank Mehra&apos;]//parent::td//preceding-sibling::td/div/input[@class=&apos;hidden&apos;]
+Trying to find Element By : By.xpath: //a[text()=&apos;Sank Mehra&apos;]//parent::td//preceding-sibling::td/div/input[@class=&apos;hidden&apos;]
+Found Element By : By.xpath: //a[text()=&apos;Sank Mehra&apos;]//parent::td//preceding-sibling::td/div/input[@class=&apos;hidden&apos;]
+Trying to find Element By : By.xpath: //a[text()=&apos;Sank Mehra&apos;]//parent::td//preceding-sibling::td/div/input[@class=&apos;hidden&apos;]
+Found Element By : By.xpath: //a[text()=&apos;Sank Mehra&apos;]//parent::td//preceding-sibling::td/div/input[@class=&apos;hidden&apos;]
+Trying to find Element By : By.xpath: //a[text()=&apos;Sank Mehra&apos;]//parent::td//preceding-sibling::td/div/input[@class=&apos;hidden&apos;]
+Found Element By : By.xpath: //a[text()=&apos;Sank Mehra&apos;]//parent::td//preceding-sibling::td/div/input[@class=&apos;hidden&apos;]
+Trying to find Element By : By.xpath: //a[text()=&apos;Sank Mehra&apos;]//parent::td//preceding-sibling::td/div/input[@class=&apos;hidden&apos;]
+Found Element By : By.xpath: //a[text()=&apos;Sank Mehra&apos;]//parent::td//preceding-sibling::td/div/input[@class=&apos;hidden&apos;]
+Trying to find Element By : By.xpath: //a[text()=&apos;Sank Mehra&apos;]//parent::td//preceding-sibling::td/div/input[@class=&apos;hidden&apos;]
+Found Element By : By.xpath: //a[text()=&apos;Sank Mehra&apos;]//parent::td//preceding-sibling::td/div/input[@class=&apos;hidden&apos;]
+Trying to find Element By : By.xpath: //a[text()=&apos;Sank Mehra&apos;]//parent::td//preceding-sibling::td/div/input[@class=&apos;hidden&apos;]
+Found Element By : By.xpath: //a[text()=&apos;Sank Mehra&apos;]//parent::td//preceding-sibling::td/div/input[@class=&apos;hidden&apos;]
+Trying to find Element By : By.xpath: //a[text()=&apos;Sank Mehra&apos;]//parent::td//preceding-sibling::td/div/input[@class=&apos;hidden&apos;]
+Found Element By : By.xpath: //a[text()=&apos;Sank Mehra&apos;]//parent::td//preceding-sibling::td/div/input[@class=&apos;hidden&apos;]
+Trying to find Element By : By.xpath: //a[text()=&apos;Sank Mehra&apos;]//parent::td//preceding-sibling::td/div/input[@class=&apos;hidden&apos;]
+Found Element By : By.xpath: //a[text()=&apos;Sank Mehra&apos;]//parent::td//preceding-sibling::td/div/input[@class=&apos;hidden&apos;]
+Trying to find Element By : By.xpath: //a[text()=&apos;Sank Mehra&apos;]//parent::td//preceding-sibling::td/div/input[@class=&apos;hidden&apos;]
+Found Element By : By.xpath: //a[text()=&apos;Sank Mehra&apos;]//parent::td//preceding-sibling::td/div/input[@class=&apos;hidden&apos;]
+Trying to find Element By : By.xpath: //a[text()=&apos;Sank Mehra&apos;]//parent::td//preceding-sibling::td/div/input[@class=&apos;hidden&apos;]
+Found Element By : By.xpath: //a[text()=&apos;Sank Mehra&apos;]//parent::td//preceding-sibling::td/div/input[@class=&apos;hidden&apos;]
+Trying to find Element By : By.xpath: //a[text()=&apos;Sank Mehra&apos;]//parent::td//preceding-sibling::td/div/input[@class=&apos;hidden&apos;]
+Found Element By : By.xpath: //a[text()=&apos;Sank Mehra&apos;]//parent::td//preceding-sibling::td/div/input[@class=&apos;hidden&apos;]
+Trying to find Element By : By.xpath: //a[text()=&apos;Sank Mehra&apos;]//parent::td//preceding-sibling::td/div/input[@class=&apos;hidden&apos;]
+Found Element By : By.xpath: //a[text()=&apos;Sank Mehra&apos;]//parent::td//preceding-sibling::td/div/input[@class=&apos;hidden&apos;]
+Trying to find Element By : By.xpath: //a[text()=&apos;Sank Mehra&apos;]//parent::td//preceding-sibling::td/div/input[@class=&apos;hidden&apos;]
+Found Element By : By.xpath: //a[text()=&apos;Sank Mehra&apos;]//parent::td//preceding-sibling::td/div/input[@class=&apos;hidden&apos;]
+Trying to find Element By : By.xpath: //a[text()=&apos;Sank Mehra&apos;]//parent::td//preceding-sibling::td/div/input[@class=&apos;hidden&apos;]
+Found Element By : By.xpath: //a[text()=&apos;Sank Mehra&apos;]//parent::td//preceding-sibling::td/div/input[@class=&apos;hidden&apos;]
+Trying to find Element By : By.xpath: //a[text()=&apos;Sank Mehra&apos;]//parent::td//preceding-sibling::td/div/input[@class=&apos;hidden&apos;]
+Found Element By : By.xpath: //a[text()=&apos;Sank Mehra&apos;]//parent::td//preceding-sibling::td/div/input[@class=&apos;hidden&apos;]
+Trying to find Element By : By.xpath: //a[text()=&apos;Sank Mehra&apos;]//parent::td//preceding-sibling::td/div/input[@class=&apos;hidden&apos;]
+Found Element By : By.xpath: //a[text()=&apos;Sank Mehra&apos;]//parent::td//preceding-sibling::td/div/input[@class=&apos;hidden&apos;]
+Trying to find Element By : By.xpath: //a[text()=&apos;Sank Mehra&apos;]//parent::td//preceding-sibling::td/div/input[@class=&apos;hidden&apos;]
+Found Element By : By.xpath: //a[text()=&apos;Sank Mehra&apos;]//parent::td//preceding-sibling::td/div/input[@class=&apos;hidden&apos;]
+Trying to find Element By : By.xpath: //a[text()=&apos;Sank Mehra&apos;]//parent::td//preceding-sibling::td/div/input[@class=&apos;hidden&apos;]
+Found Element By : By.xpath: //a[text()=&apos;Sank Mehra&apos;]//parent::td//preceding-sibling::td/div/input[@class=&apos;hidden&apos;]
+Trying to find Element By : By.xpath: //a[text()=&apos;Sank Mehra&apos;]//parent::td//preceding-sibling::td/div/input[@class=&apos;hidden&apos;]
+Found Element By : By.xpath: //a[text()=&apos;Sank Mehra&apos;]//parent::td//preceding-sibling::td/div/input[@class=&apos;hidden&apos;]
+Trying to find Element By : By.xpath: //a[text()=&apos;Sank Mehra&apos;]//parent::td//preceding-sibling::td/div/input[@class=&apos;hidden&apos;]
+Found Element By : By.xpath: //a[text()=&apos;Sank Mehra&apos;]//parent::td//preceding-sibling::td/div/input[@class=&apos;hidden&apos;]
+Trying to find Element By : By.xpath: //a[text()=&apos;Sank Mehra&apos;]//parent::td//preceding-sibling::td/div/input[@class=&apos;hidden&apos;]
+Found Element By : By.xpath: //a[text()=&apos;Sank Mehra&apos;]//parent::td//preceding-sibling::td/div/input[@class=&apos;hidden&apos;]
+Trying to find Element By : By.xpath: //a[text()=&apos;Sank Mehra&apos;]//parent::td//preceding-sibling::td/div/input[@class=&apos;hidden&apos;]
+Found Element By : By.xpath: //a[text()=&apos;Sank Mehra&apos;]//parent::td//preceding-sibling::td/div/input[@class=&apos;hidden&apos;]
+Trying to find Element By : By.xpath: //a[text()=&apos;Sank Mehra&apos;]//parent::td//preceding-sibling::td/div/input[@class=&apos;hidden&apos;]
+Found Element By : By.xpath: //a[text()=&apos;Sank Mehra&apos;]//parent::td//preceding-sibling::td/div/input[@class=&apos;hidden&apos;]
+Trying to find Element By : By.xpath: //a[text()=&apos;Sank Mehra&apos;]//parent::td//preceding-sibling::td/div/input[@class=&apos;hidden&apos;]
+Found Element By : By.xpath: //a[text()=&apos;Sank Mehra&apos;]//parent::td//preceding-sibling::td/div/input[@class=&apos;hidden&apos;]
+Trying to find Element By : By.xpath: //a[text()=&apos;Sank Mehra&apos;]//parent::td//preceding-sibling::td/div/input[@class=&apos;hidden&apos;]
+Found Element By : By.xpath: //a[text()=&apos;Sank Mehra&apos;]//parent::td//preceding-sibling::td/div/input[@class=&apos;hidden&apos;]
+</system-out>
+    <system-err>Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 22475
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+May 21, 2021 1:30:01 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+</system-err>
+  </testcase>
+  <testcase classname="com.crm.qa.testcases.ContactsPageTest" name="selectMultipleContactsTest" time="24.483">
+    <failure message="Expected condition failed: waiting for visibility of element located by By.xpath: //a[text()=&apos;Sank Mehra&apos;]//parent::td//preceding-sibling::td/div/input[@class=&apos;hidden&apos;] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LAPTOP-2EQAN3L4&apos;, ip: &apos;192.168.29.45&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_291&apos;
+Driver info: org.openqa.selenium.support.events.EventFiringWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\sanka\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59186}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 23f5bbc99f6b3f7f8c380d60927567b6" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //a[text()=&apos;Sank Mehra&apos;]//parent::td//preceding-sibling::td/div/input[@class=&apos;hidden&apos;] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LAPTOP-2EQAN3L4&apos;, ip: &apos;192.168.29.45&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_291&apos;
+Driver info: org.openqa.selenium.support.events.EventFiringWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\sanka\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59186}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 23f5bbc99f6b3f7f8c380d60927567b6
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at com.crm.qa.pages.ContactsPage.selectContactsByName(ContactsPage.java:51)
+	at com.crm.qa.testcases.ContactsPageTest.selectMultipleContactsTest(ContactsPageTest.java:72)
+</failure>
+    <system-out>05-21-2021 13:30:36 TestBase.java INFO  [main] base.TestBase 56 - Launching borwser
+Before navigating to: &apos;https://ui.cogmento.com/&apos;
+Navigated to:&apos;https://ui.cogmento.com/&apos;
+05-21-2021 13:30:38 TestBase.java INFO  [main] base.TestBase 72 - Launching URL
+Trying to find Element By : By.xpath: //input[@name=&apos;email&apos;]
+Found Element By : By.xpath: //input[@name=&apos;email&apos;]
+Trying to find Element By : By.xpath: //input[@name=&apos;password&apos;]
+Found Element By : By.xpath: //input[@name=&apos;password&apos;]
+Trying to find Element By : By.xpath: //div[@class=&apos;ui fluid large blue submit button&apos;]
+Found Element By : By.xpath: //div[@class=&apos;ui fluid large blue submit button&apos;]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (23f5bbc99f6b3f7f8c380d60927567b6)] -&gt; xpath: //div[@class=&apos;ui fluid large blue submit button&apos;]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (23f5bbc99f6b3f7f8c380d60927567b6)] -&gt; xpath: //div[@class=&apos;ui fluid large blue submit button&apos;]]
+Trying to find Element By : By.xpath: //span[@class=&apos;item-text&apos; and text()=&apos;Contacts&apos;]
+Found Element By : By.xpath: //span[@class=&apos;item-text&apos; and text()=&apos;Contacts&apos;]
+Trying to find Element By : By.xpath: //span[@class=&apos;item-text&apos; and text()=&apos;Contacts&apos;]
+Found Element By : By.xpath: //span[@class=&apos;item-text&apos; and text()=&apos;Contacts&apos;]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (23f5bbc99f6b3f7f8c380d60927567b6)] -&gt; xpath: //span[@class=&apos;item-text&apos; and text()=&apos;Contacts&apos;]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (23f5bbc99f6b3f7f8c380d60927567b6)] -&gt; xpath: //span[@class=&apos;item-text&apos; and text()=&apos;Contacts&apos;]]
+Trying to find Element By : By.xpath: //button[text()=&apos;Show Filters&apos;]
+Found Element By : By.xpath: //button[text()=&apos;Show Filters&apos;]
+Trying to find Element By : By.xpath: //a[text()=&apos;Sank Mehra&apos;]
+Found Element By : By.xpath: //a[text()=&apos;Sank Mehra&apos;]
+Trying to find Element By : By.xpath: //a[text()=&apos;Sank Mehra&apos;]//parent::td//preceding-sibling::td/div/input[@class=&apos;hidden&apos;]
+Found Element By : By.xpath: //a[text()=&apos;Sank Mehra&apos;]//parent::td//preceding-sibling::td/div/input[@class=&apos;hidden&apos;]
+Trying to find Element By : By.xpath: //a[text()=&apos;Sank Mehra&apos;]//parent::td//preceding-sibling::td/div/input[@class=&apos;hidden&apos;]
+Found Element By : By.xpath: //a[text()=&apos;Sank Mehra&apos;]//parent::td//preceding-sibling::td/div/input[@class=&apos;hidden&apos;]
+Trying to find Element By : By.xpath: //a[text()=&apos;Sank Mehra&apos;]//parent::td//preceding-sibling::td/div/input[@class=&apos;hidden&apos;]
+Found Element By : By.xpath: //a[text()=&apos;Sank Mehra&apos;]//parent::td//preceding-sibling::td/div/input[@class=&apos;hidden&apos;]
+Trying to find Element By : By.xpath: //a[text()=&apos;Sank Mehra&apos;]//parent::td//preceding-sibling::td/div/input[@class=&apos;hidden&apos;]
+Found Element By : By.xpath: //a[text()=&apos;Sank Mehra&apos;]//parent::td//preceding-sibling::td/div/input[@class=&apos;hidden&apos;]
+Trying to find Element By : By.xpath: //a[text()=&apos;Sank Mehra&apos;]//parent::td//preceding-sibling::td/div/input[@class=&apos;hidden&apos;]
+Found Element By : By.xpath: //a[text()=&apos;Sank Mehra&apos;]//parent::td//preceding-sibling::td/div/input[@class=&apos;hidden&apos;]
+Trying to find Element By : By.xpath: //a[text()=&apos;Sank Mehra&apos;]//parent::td//preceding-sibling::td/div/input[@class=&apos;hidden&apos;]
+Found Element By : By.xpath: //a[text()=&apos;Sank Mehra&apos;]//parent::td//preceding-sibling::td/div/input[@class=&apos;hidden&apos;]
+Trying to find Element By : By.xpath: //a[text()=&apos;Sank Mehra&apos;]//parent::td//preceding-sibling::td/div/input[@class=&apos;hidden&apos;]
+Found Element By : By.xpath: //a[text()=&apos;Sank Mehra&apos;]//parent::td//preceding-sibling::td/div/input[@class=&apos;hidden&apos;]
+Trying to find Element By : By.xpath: //a[text()=&apos;Sank Mehra&apos;]//parent::td//preceding-sibling::td/div/input[@class=&apos;hidden&apos;]
+Found Element By : By.xpath: //a[text()=&apos;Sank Mehra&apos;]//parent::td//preceding-sibling::td/div/input[@class=&apos;hidden&apos;]
+Trying to find Element By : By.xpath: //a[text()=&apos;Sank Mehra&apos;]//parent::td//preceding-sibling::td/div/input[@class=&apos;hidden&apos;]
+Found Element By : By.xpath: //a[text()=&apos;Sank Mehra&apos;]//parent::td//preceding-sibling::td/div/input[@class=&apos;hidden&apos;]
+Trying to find Element By : By.xpath: //a[text()=&apos;Sank Mehra&apos;]//parent::td//preceding-sibling::td/div/input[@class=&apos;hidden&apos;]
+Found Element By : By.xpath: //a[text()=&apos;Sank Mehra&apos;]//parent::td//preceding-sibling::td/div/input[@class=&apos;hidden&apos;]
+Trying to find Element By : By.xpath: //a[text()=&apos;Sank Mehra&apos;]//parent::td//preceding-sibling::td/div/input[@class=&apos;hidden&apos;]
+Found Element By : By.xpath: //a[text()=&apos;Sank Mehra&apos;]//parent::td//preceding-sibling::td/div/input[@class=&apos;hidden&apos;]
+Trying to find Element By : By.xpath: //a[text()=&apos;Sank Mehra&apos;]//parent::td//preceding-sibling::td/div/input[@class=&apos;hidden&apos;]
+Found Element By : By.xpath: //a[text()=&apos;Sank Mehra&apos;]//parent::td//preceding-sibling::td/div/input[@class=&apos;hidden&apos;]
+Trying to find Element By : By.xpath: //a[text()=&apos;Sank Mehra&apos;]//parent::td//preceding-sibling::td/div/input[@class=&apos;hidden&apos;]
+Found Element By : By.xpath: //a[text()=&apos;Sank Mehra&apos;]//parent::td//preceding-sibling::td/div/input[@class=&apos;hidden&apos;]
+Trying to find Element By : By.xpath: //a[text()=&apos;Sank Mehra&apos;]//parent::td//preceding-sibling::td/div/input[@class=&apos;hidden&apos;]
+Found Element By : By.xpath: //a[text()=&apos;Sank Mehra&apos;]//parent::td//preceding-sibling::td/div/input[@class=&apos;hidden&apos;]
+Trying to find Element By : By.xpath: //a[text()=&apos;Sank Mehra&apos;]//parent::td//preceding-sibling::td/div/input[@class=&apos;hidden&apos;]
+Found Element By : By.xpath: //a[text()=&apos;Sank Mehra&apos;]//parent::td//preceding-sibling::td/div/input[@class=&apos;hidden&apos;]
+Trying to find Element By : By.xpath: //a[text()=&apos;Sank Mehra&apos;]//parent::td//preceding-sibling::td/div/input[@class=&apos;hidden&apos;]
+Found Element By : By.xpath: //a[text()=&apos;Sank Mehra&apos;]//parent::td//preceding-sibling::td/div/input[@class=&apos;hidden&apos;]
+Trying to find Element By : By.xpath: //a[text()=&apos;Sank Mehra&apos;]//parent::td//preceding-sibling::td/div/input[@class=&apos;hidden&apos;]
+Found Element By : By.xpath: //a[text()=&apos;Sank Mehra&apos;]//parent::td//preceding-sibling::td/div/input[@class=&apos;hidden&apos;]
+Trying to find Element By : By.xpath: //a[text()=&apos;Sank Mehra&apos;]//parent::td//preceding-sibling::td/div/input[@class=&apos;hidden&apos;]
+Found Element By : By.xpath: //a[text()=&apos;Sank Mehra&apos;]//parent::td//preceding-sibling::td/div/input[@class=&apos;hidden&apos;]
+Trying to find Element By : By.xpath: //a[text()=&apos;Sank Mehra&apos;]//parent::td//preceding-sibling::td/div/input[@class=&apos;hidden&apos;]
+Found Element By : By.xpath: //a[text()=&apos;Sank Mehra&apos;]//parent::td//preceding-sibling::td/div/input[@class=&apos;hidden&apos;]
+Trying to find Element By : By.xpath: //a[text()=&apos;Sank Mehra&apos;]//parent::td//preceding-sibling::td/div/input[@class=&apos;hidden&apos;]
+Found Element By : By.xpath: //a[text()=&apos;Sank Mehra&apos;]//parent::td//preceding-sibling::td/div/input[@class=&apos;hidden&apos;]
+Trying to find Element By : By.xpath: //a[text()=&apos;Sank Mehra&apos;]//parent::td//preceding-sibling::td/div/input[@class=&apos;hidden&apos;]
+Found Element By : By.xpath: //a[text()=&apos;Sank Mehra&apos;]//parent::td//preceding-sibling::td/div/input[@class=&apos;hidden&apos;]
+Trying to find Element By : By.xpath: //a[text()=&apos;Sank Mehra&apos;]//parent::td//preceding-sibling::td/div/input[@class=&apos;hidden&apos;]
+Found Element By : By.xpath: //a[text()=&apos;Sank Mehra&apos;]//parent::td//preceding-sibling::td/div/input[@class=&apos;hidden&apos;]
+Trying to find Element By : By.xpath: //a[text()=&apos;Sank Mehra&apos;]//parent::td//preceding-sibling::td/div/input[@class=&apos;hidden&apos;]
+Found Element By : By.xpath: //a[text()=&apos;Sank Mehra&apos;]//parent::td//preceding-sibling::td/div/input[@class=&apos;hidden&apos;]
+Trying to find Element By : By.xpath: //a[text()=&apos;Sank Mehra&apos;]//parent::td//preceding-sibling::td/div/input[@class=&apos;hidden&apos;]
+Found Element By : By.xpath: //a[text()=&apos;Sank Mehra&apos;]//parent::td//preceding-sibling::td/div/input[@class=&apos;hidden&apos;]
+Trying to find Element By : By.xpath: //a[text()=&apos;Sank Mehra&apos;]//parent::td//preceding-sibling::td/div/input[@class=&apos;hidden&apos;]
+Found Element By : By.xpath: //a[text()=&apos;Sank Mehra&apos;]//parent::td//preceding-sibling::td/div/input[@class=&apos;hidden&apos;]
+Trying to find Element By : By.xpath: //a[text()=&apos;Sank Mehra&apos;]//parent::td//preceding-sibling::td/div/input[@class=&apos;hidden&apos;]
+Found Element By : By.xpath: //a[text()=&apos;Sank Mehra&apos;]//parent::td//preceding-sibling::td/div/input[@class=&apos;hidden&apos;]
+Trying to find Element By : By.xpath: //a[text()=&apos;Sank Mehra&apos;]//parent::td//preceding-sibling::td/div/input[@class=&apos;hidden&apos;]
+Found Element By : By.xpath: //a[text()=&apos;Sank Mehra&apos;]//parent::td//preceding-sibling::td/div/input[@class=&apos;hidden&apos;]
+Trying to find Element By : By.xpath: //a[text()=&apos;Sank Mehra&apos;]//parent::td//preceding-sibling::td/div/input[@class=&apos;hidden&apos;]
+Found Element By : By.xpath: //a[text()=&apos;Sank Mehra&apos;]//parent::td//preceding-sibling::td/div/input[@class=&apos;hidden&apos;]
+Trying to find Element By : By.xpath: //a[text()=&apos;Sank Mehra&apos;]//parent::td//preceding-sibling::td/div/input[@class=&apos;hidden&apos;]
+Found Element By : By.xpath: //a[text()=&apos;Sank Mehra&apos;]//parent::td//preceding-sibling::td/div/input[@class=&apos;hidden&apos;]
+Trying to find Element By : By.xpath: //a[text()=&apos;Sank Mehra&apos;]//parent::td//preceding-sibling::td/div/input[@class=&apos;hidden&apos;]
+Found Element By : By.xpath: //a[text()=&apos;Sank Mehra&apos;]//parent::td//preceding-sibling::td/div/input[@class=&apos;hidden&apos;]
+Trying to find Element By : By.xpath: //a[text()=&apos;Sank Mehra&apos;]//parent::td//preceding-sibling::td/div/input[@class=&apos;hidden&apos;]
+Found Element By : By.xpath: //a[text()=&apos;Sank Mehra&apos;]//parent::td//preceding-sibling::td/div/input[@class=&apos;hidden&apos;]
+Trying to find Element By : By.xpath: //a[text()=&apos;Sank Mehra&apos;]//parent::td//preceding-sibling::td/div/input[@class=&apos;hidden&apos;]
+Found Element By : By.xpath: //a[text()=&apos;Sank Mehra&apos;]//parent::td//preceding-sibling::td/div/input[@class=&apos;hidden&apos;]
+Trying to find Element By : By.xpath: //a[text()=&apos;Sank Mehra&apos;]//parent::td//preceding-sibling::td/div/input[@class=&apos;hidden&apos;]
+Found Element By : By.xpath: //a[text()=&apos;Sank Mehra&apos;]//parent::td//preceding-sibling::td/div/input[@class=&apos;hidden&apos;]
+Trying to find Element By : By.xpath: //a[text()=&apos;Sank Mehra&apos;]//parent::td//preceding-sibling::td/div/input[@class=&apos;hidden&apos;]
+Found Element By : By.xpath: //a[text()=&apos;Sank Mehra&apos;]//parent::td//preceding-sibling::td/div/input[@class=&apos;hidden&apos;]
+Trying to find Element By : By.xpath: //a[text()=&apos;Sank Mehra&apos;]//parent::td//preceding-sibling::td/div/input[@class=&apos;hidden&apos;]
+Found Element By : By.xpath: //a[text()=&apos;Sank Mehra&apos;]//parent::td//preceding-sibling::td/div/input[@class=&apos;hidden&apos;]
+Trying to find Element By : By.xpath: //a[text()=&apos;Sank Mehra&apos;]//parent::td//preceding-sibling::td/div/input[@class=&apos;hidden&apos;]
+Found Element By : By.xpath: //a[text()=&apos;Sank Mehra&apos;]//parent::td//preceding-sibling::td/div/input[@class=&apos;hidden&apos;]
+Trying to find Element By : By.xpath: //a[text()=&apos;Sank Mehra&apos;]//parent::td//preceding-sibling::td/div/input[@class=&apos;hidden&apos;]
+Found Element By : By.xpath: //a[text()=&apos;Sank Mehra&apos;]//parent::td//preceding-sibling::td/div/input[@class=&apos;hidden&apos;]
+Trying to find Element By : By.xpath: //a[text()=&apos;Sank Mehra&apos;]//parent::td//preceding-sibling::td/div/input[@class=&apos;hidden&apos;]
+Found Element By : By.xpath: //a[text()=&apos;Sank Mehra&apos;]//parent::td//preceding-sibling::td/div/input[@class=&apos;hidden&apos;]
+</system-out>
+    <system-err>Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 26857
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+May 21, 2021 1:30:36 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+</system-err>
+  </testcase>
+  <testcase classname="com.crm.qa.testcases.ContactsPageTest" name="validateCreateNewContact" time="26.022">
+    <failure message="
+[public void com.crm.qa.testcases.ContactsPageTest.validateCreateNewContact(java.lang.String,java.lang.String)] has no parameters defined but was found to be using a data provider (either explicitly specified or inherited from class level annotation).
+Data provider mismatch
+Method: validateCreateNewContact([Parameter{index=0, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=1, type=java.lang.String, declaredAnnotations=[]}])
+Arguments: [(java.lang.String) Mr.,(java.lang.String) Karan,(java.lang.String) Jamwal,(java.lang.String) Google]" type="org.testng.internal.reflect.MethodMatcherException">org.testng.internal.reflect.MethodMatcherException: 
+[public void com.crm.qa.testcases.ContactsPageTest.validateCreateNewContact(java.lang.String,java.lang.String)] has no parameters defined but was found to be using a data provider (either explicitly specified or inherited from class level annotation).
+Data provider mismatch
+Method: validateCreateNewContact([Parameter{index=0, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=1, type=java.lang.String, declaredAnnotations=[]}])
+Arguments: [(java.lang.String) Mr.,(java.lang.String) Karan,(java.lang.String) Jamwal,(java.lang.String) Google]
+	at org.testng.internal.reflect.DataProviderMethodMatcher.getConformingArguments(DataProviderMethodMatcher.java:43)
+	at org.testng.internal.Parameters.injectParameters(Parameters.java:914)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:34)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+</failure>
+  </testcase>
+  <testcase classname="com.crm.qa.testcases.LoginPageTest" name="loginPageTitleTest" time="0.011"/>
+  <testcase classname="com.crm.qa.testcases.LoginPageTest" name="loginTest" time="2.207"/>
+  <testcase classname="com.crm.qa.testcases.RegisterPageTest" name="verifyRegisterPageTitleTest" time="0.004"/>
+  <testcase classname="com.crm.qa.testcases.RegisterPageTest" name="verifyCorrectPageNameTest" time="1.161"/>
+  <testcase classname="com.crm.qa.testcases.RegisterPageTest" name="verifyContactsLinkTest" time="2.364"/>
+</testsuite>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [MercuryTours Test Automation Test Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Mercury Tours Test Cases(failed)">
+    <classes>
+      <class name="com.crm.qa.testcases.RegisterPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="verifyFlightsLinkTest"/>
+          <include name="tearDown"/>
+          <include name="verifyCorrectPageNameTest"/>
+          <include name="verifyHotelLinkTest"/>
+        </methods>
+      </class> <!-- com.crm.qa.testcases.RegisterPageTest -->
+      <class name="com.crm.qa.testcases.HotelPageTest">
+        <methods>
+          <include name="verifyHotelPageLabel"/>
+          <include name="verifyHotelDetails"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.crm.qa.testcases.HotelPageTest -->
+      <class name="com.crm.qa.testcases.FlightsPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="verifyFlightDetails"/>
+          <include name="verifyFlightsPageLabel"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.crm.qa.testcases.FlightsPageTest -->
+    </classes>
+  </test> <!-- Mercury Tours Test Cases(failed) -->
+</suite> <!-- Failed suite [MercuryTours Test Automation Test Suite] -->
